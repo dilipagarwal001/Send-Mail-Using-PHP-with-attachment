@@ -37,7 +37,7 @@
 	<div class="container">
 		<div class="row text-center" style="">
 			<div class="col-lg-offset-3 col-lg-7" style="box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);">
-				<h2 class="text-center" style="color:grey">Digital Assignment</h3>
+				<h2 class="text-center" style="color:grey">Send mail using Php with attachment</h3>
 				<div class="row firstrow">
 					<div class="col-lg-5">
 						<input type="email" class="text-center" Placeholder="Enter Your Email" name="to" required />
