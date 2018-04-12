@@ -1,0 +1,36 @@
+.container{padding-top:2%;}
+.firstrow{padding:50px 110px 60px 50px;font-size:20px;}
+input[type="text"], input[type="email"]
+{
+	height:80px;
+	outline:none;
+	border:1px solid lightgrey;
+	border-radius:5px;
+}
+textarea{border-radius:5px;outline:none;border:2px solid lightgrey;}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus
+{
+	transition:2s;
+	border:2px solid red;
+}
+::placeholder {
+    color: lightgrey;
+    opacity: 0.7;
+}
+button{margin-bottom:30px;margin-top:30px;width:200px;height:45px;background-color:#5cb85c;outline:none;border:none;border-radius:7px;font-weight:bold;color:white;
+font-size:17px;
+}
+
+button:active{opacity:0.7;}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 18px 12px;
+    cursor: pointer;
+	font-size:20px;
+	color:lightgrey;
+}
